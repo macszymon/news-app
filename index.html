@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TheNews - Latest news from your country</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <nav class="nav">
+      <button class="nav__hamburger"></button>
+      <div class="nav__logo"><a href="/">TheNews</a></div>
+      <ul class="nav__list hide">
+        <li class="nav__item"><a href="/">Politics</a></li>
+        <li class="nav__item"><a href="/">Business</a></li>
+        <li class="nav__item"><a href="/">Science</a></li>
+        <li class="nav__item"><a href="/">Arts</a></li>
+        <li class="nav__item"><a href="/">Economics</a></li>
+        <li class="nav__item"><a href="/">World</a></li>
+        <li class="nav__item"><a href="/">Sport</a></li>
+        <li class="nav__item"><a href="/">Lifestyle</a></li>
+      </ul>
+      <div id="date" class="nav__date"></div>
+    </nav>
+    <section class="news-bar">
+      <span class="news-bar__latest">Latest</span>
+      <div class="news-bar__container">
+        <p class="news-bar__paragraph"><strong>11:12</strong> Lorem ipsum dolor sit amet consectetur &#x25cf; <strong>11:32</strong> Lorem ipsum dolor sit amet, consectetur adipisicing &#x25cf; <strong>11:42</strong> Lorem ipsum, dolor sit amet consectetur adipisicing elit &#x25cf; <strong>11:57</strong> Lorem ipsum dolor sit amet consectetur &#x25cf;</p>
+        <p class="news-bar__paragraph"><strong>11:12</strong> Lorem ipsum dolor sit amet consectetur &#x25cf; <strong>11:32</strong> Lorem ipsum dolor sit amet, consectetur adipisicing &#x25cf; <strong>11:42</strong> Lorem ipsum, dolor sit amet consectetur adipisicing elit &#x25cf; <strong>11:57</strong> Lorem ipsum dolor sit amet consectetur &#x25cf;</p>
+      </div>
+    </section>
+    <main class="main">
+      <div class="main__container">
+        <section class="main-news">
+          <img class="main-news__image" src="https://images.pexels.com/photos/417070/pexels-photo-417070.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" />
+          <div class="main-news__container">
+            <div class="main-news__text">
+              <h1 class="main-news__title">AMET: Lorem ipsum dolor sit amet consectetur adipisicing elit</h1>
+              <p class="main-news__info">by John Smith &bull; 3hrs ago</p>
+              <p class="main-news__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quo fugit ipsum voluptate voluptatum voluptatem, maxime temporibus nobis excepturi, asperiores corporis eveniet neque repellat ut, iusto quod enim sapiente non.</p>
+            </div>
+          </div>
+        </section>
+        <section class="latest-news">
+          <h2 class="latest-news__heading">Latest news</h2>
+          <div class="latest-news__cards">
+            <div class="news-card">
+              <img class="news-card__image" src="https://images.pexels.com/photos/73760/swimming-swimmer-female-race-73760.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" />
+              <div class="news-card__content">
+                <p class="news-card__info">by Dominic Black &bull; 24min ago</p>
+                <h4 class="news-card__title">Lorem ipsum dolor sit amet consectetur, adipisicing elit</h4>
+              </div>
+            </div>
+            <div class="news-card">
+              <img class="news-card__image" src="https://images.pexels.com/photos/920157/pexels-photo-920157.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" />
+              <div class="news-card__content">
+                <p class="news-card__info">by Andy Watson &bull; 1hr ago</p>
+                <h4 class="news-card__title">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum modi in veniam eaque aliquam molestias. Qui, ex</h4>
+              </div>
+            </div>
+            <div class="news-card">
+              <img class="news-card__image" src="https://images.pexels.com/photos/2209/people-men-grass-sport.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" />
+              <div class="news-card__content">
+                <p class="news-card__info">by Dominic Black &bull; 2hrs ago</p>
+                <h4 class="news-card__title">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat illum molestias facere</h4>
+              </div>
+            </div>
+            <div class="news-card">
+              <img class="news-card__image" src="https://images.pexels.com/photos/1550337/pexels-photo-1550337.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" />
+              <div class="news-card__content">
+                <p class="news-card__info">by Jane Williams &bull; 2hrs ago</p>
+                <h4 class="news-card__title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores corrupti pariatur laudantium porro sed nihil</h4>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <section class="subbar">
+        <ul class="subbar__list">
+          <li class="subbar__item">
+            <a href="/">Lorem ipsum dolor sit amet consectetur adipisicing.</a>
+          </li>
+          <li class="subbar__item">
+            <a href="/">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente, obcaecati.</a>
+          </li>
+          <li class="subbar__item">
+            <a href="/">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla natus asperiores saepe.</a>
+          </li>
+          <li class="subbar__item">
+            <a href="/">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident blanditiis fugit, sit nisi omnis nesciunt.</a>
+          </li>
+          <li class="subbar__item">
+            <a href="/">Lorem ipsum dolor sit amet consectetur.</a>
+          </li>
+          <li class="subbar__item">
+            <a href="/">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, libero consequuntur?</a>
+          </li>
+          <li class="subbar__item">
+            <a href="/">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur!</a>
+          </li>
+          <li class="subbar__item">
+            <a href="/">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, asperiores.</a>
+          </li>
+          <li class="subbar__item">
+            <a href="/">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad debitis porro nemo velit?.</a>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <section class="section">
+      <h2 class="section__heading">Politics</h2>
+      <div class="section__cards">
+        <div class="news-card">
+          <img class="news-card__image" src="https://images.pexels.com/photos/4666/berlin-eu-european-union-federal-chancellery.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" />
+          <div class="news-card__content">
+            <p class="news-card__info">by Jane Williams &bull; 3hrs ago</p>
+            <h4 class="news-card__title">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem</h4>
+          </div>
+        </div>
+        <div class="news-card">
+          <img class="news-card__image" src="https://images.pexels.com/photos/4427618/pexels-photo-4427618.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" />
+          <div class="news-card__content">
+            <p class="news-card__info">by Jane Williams &bull; 4hrs ago</p>
+            <h4 class="news-card__title">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, dolore quas</h4>
+          </div>
+        </div>
+        <div class="news-card">
+          <img class="news-card__image" src="https://images.pexels.com/photos/3806756/pexels-photo-3806756.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" />
+          <div class="news-card__content">
+            <p class="news-card__info">by John Nelson &bull; 6hrs ago</p>
+            <h4 class="news-card__title">Lorem ipsum dolor sit, amet consectetur adipisicing</h4>
+          </div>
+        </div>
+        <div class="news-card">
+          <img class="news-card__image" src="https://images.pexels.com/photos/7103086/pexels-photo-7103086.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" />
+          <div class="news-card__content">
+            <p class="news-card__info">by Jane Williams &bull; 6hrs ago</p>
+            <h4 class="news-card__title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ab accusamus explicabo nostrum mollitia laborum</h4>
+          </div>
+        </div>
+        <div class="news-card">
+          <img class="news-card__image" src="https://images.pexels.com/photos/2833377/pexels-photo-2833377.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" />
+          <div class="news-card__content">
+            <p class="news-card__info">by John Nelson &bull; 11hrs ago</p>
+            <h4 class="news-card__title">Lorem ipsum dolor sit amet consectetur, adipisicing elit</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <h2 class="section__heading">Business</h2>
+      <div class="section__cards">
+        <div class="news-card">
+          <img class="news-card__image" src="https://images.pexels.com/photos/351264/pexels-photo-351264.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" />
+          <div class="news-card__content">
+            <p class="news-card__info">by Bill Howard &bull; 5hrs ago</p>
+            <h4 class="news-card__title">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium, eligendi</h4>
+          </div>
+        </div>
+        <div class="news-card">
+          <img class="news-card__image" src="https://images.pexels.com/photos/256297/pexels-photo-256297.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" />
+          <div class="news-card__content">
+            <p class="news-card__info">by Anthony Clark &bull; 11hrs ago</p>
+            <h4 class="news-card__title">Lorem ipsum dolor sit amet consectetur</h4>
+          </div>
+        </div>
+        <div class="news-card">
+          <img class="news-card__image" src="https://images.pexels.com/photos/926390/pexels-photo-926390.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" />
+          <div class="news-card__content">
+            <p class="news-card__info">by Bill Howard &bull; 17hrs ago</p>
+            <h4 class="news-card__title">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad alias eaque vel mollitia ullam</h4>
+          </div>
+        </div>
+        <div class="news-card">
+          <img class="news-card__image" src="https://images.pexels.com/photos/1647919/pexels-photo-1647919.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" />
+          <div class="news-card__content">
+            <p class="news-card__info">by Bill Howard &bull; 19hrs ago</p>
+            <h4 class="news-card__title">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti sint magnam reprehenderit</h4>
+          </div>
+        </div>
+        <div class="news-card">
+          <img class="news-card__image" src="https://images.pexels.com/photos/6801648/pexels-photo-6801648.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" />
+          <div class="news-card__content">
+            <p class="news-card__info">by Anthony Clark &bull; 21hrs ago</p>
+            <h4 class="news-card__title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt odio et rem ut ea</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <h2 class="section__heading">Science</h2>
+      <div class="section__cards">
+        <div class="news-card">
+          <img class="news-card__image" src="https://images.pexels.com/photos/3683040/pexels-photo-3683040.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" />
+          <div class="news-card__content">
+            <p class="news-card__info">by Andy Watson &bull; 7hrs ago</p>
+            <h4 class="news-card__title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum aspernatur eius consequuntur</h4>
+          </div>
+        </div>
+        <div class="news-card">
+          <img class="news-card__image" src="https://images.pexels.com/photos/2280571/pexels-photo-2280571.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" />
+          <div class="news-card__content">
+            <p class="news-card__info">by Mark Fletcher &bull; 10hrs ago</p>
+            <h4 class="news-card__title">Lorem ipsum dolor sit amet consectetur</h4>
+          </div>
+        </div>
+        <div class="news-card">
+          <img class="news-card__image" src="https://images.pexels.com/photos/41951/solar-system-emergence-spitzer-telescope-telescope-41951.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" />
+          <div class="news-card__content">
+            <p class="news-card__info">by Mark Fletcher &bull; 12hrs ago</p>
+            <h4 class="news-card__title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil veritatis incidunt cumque</h4>
+          </div>
+        </div>
+        <div class="news-card">
+          <img class="news-card__image" src="https://images.pexels.com/photos/706924/pexels-photo-706924.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" />
+          <div class="news-card__content">
+            <p class="news-card__info">by Mark Fletcher &bull; 14hrs ago</p>
+            <h4 class="news-card__title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, reiciendis!</h4>
+          </div>
+        </div>
+        <div class="news-card">
+          <img class="news-card__image" src="https://images.pexels.com/photos/1028904/pexels-photo-1028904.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" />
+          <div class="news-card__content">
+            <p class="news-card__info">by Andy Watson &bull; 19hrs ago</p>
+            <h4 class="news-card__title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente explicabo minus et</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="main-news">
+      <img class="main-news__image" src="https://images.pexels.com/photos/1549308/pexels-photo-1549308.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" />
+      <div class="main-news__container">
+        <div class="main-news__text">
+          <h1 class="main-news__title">AMET: Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto natus ullam officiis perspiciatis!</h1>
+          <p class="main-news__info">by Bill McDonald &bull; 5hrs ago</p>
+          <p class="main-news__desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque nostrum aperiam animi veniam quod quaerat adipisci, eligendi quisquam repudiandae vel illum asperiores voluptatibus assumenda sapiente qui pariatur ducimus. Obcaecati aspernatur, placeat ex optio totam magni iure sint facere. Impedit aperiam iste eveniet accusamus debitis, eligendi
+            non totam dicta dolore. Soluta.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <h2 class="section__heading">Arts</h2>
+      <div class="section__cards">
+        <div class="news-card">
+          <img class="news-card__image" src="https://images.pexels.com/photos/1839919/pexels-photo-1839919.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" />
+          <div class="news-card__content">
+            <p class="news-card__info">by Welma Francis &bull; 12hrs ago</p>
+            <h4 class="news-card__title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, pariatur? Odit, expedita dolores</h4>
+          </div>
+        </div>
+        <div class="news-card">
+          <img class="news-card__image" src="https://images.pexels.com/photos/209948/pexels-photo-209948.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" />
+          <div class="news-card__content">
+            <p class="news-card__info">by Dominic Hall &bull; 13hrs ago</p>
+            <h4 class="news-card__title">Lorem ipsum dolor sit amet consectetur, adipisicing elit</h4>
+          </div>
+        </div>
+        <div class="news-card">
+          <img class="news-card__image" src="https://images.pexels.com/photos/1194420/pexels-photo-1194420.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" />
+          <div class="news-card__content">
+            <p class="news-card__info">by Welma Francis &bull; 17hrs ago</p>
+            <h4 class="news-card__title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates</h4>
+          </div>
+        </div>
+        <div class="news-card">
+          <img class="news-card__image" src="https://images.pexels.com/photos/159862/art-school-of-athens-raphael-italian-painter-fresco-159862.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" />
+          <div class="news-card__content">
+            <p class="news-card__info">by Dominic Hall &bull; 19hrs ago</p>
+            <h4 class="news-card__title">Lorem ipsum dolor sit amet consectetur adipisicing</h4>
+          </div>
+        </div>
+        <div class="news-card">
+          <img class="news-card__image" src="https://images.pexels.com/photos/102127/pexels-photo-102127.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" />
+          <div class="news-card__content">
+            <p class="news-card__info">by Welma Francis &bull; 21hrs ago</p>
+            <h4 class="news-card__title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere odit nesciunt incidunt voluptas perferendis eaque</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <h2 class="section__heading">Economics</h2>
+      <div class="section__cards">
+        <div class="news-card">
+          <img class="news-card__image" src="https://images.pexels.com/photos/45708/pexels-photo-45708.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" />
+          <div class="news-card__content">
+            <p class="news-card__info">by Adam Fisher &bull; 3hrs ago</p>
+            <h4 class="news-card__title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis adipisci quis enim</h4>
+          </div>
+        </div>
+        <div class="news-card">
+          <img class="news-card__image" src="https://images.pexels.com/photos/210607/pexels-photo-210607.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" />
+          <div class="news-card__content">
+            <p class="news-card__info">by Dominic Jordan &bull; 10hrs ago</p>
+            <h4 class="news-card__title">Lorem ipsum dolor sit amet consectetur adipisicing elit</h4>
+          </div>
+        </div>
+        <div class="news-card">
+          <img class="news-card__image" src="https://images.pexels.com/photos/533353/pexels-photo-533353.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" />
+          <div class="news-card__content">
+            <p class="news-card__info">by Adam Fisher &bull; 11hrs ago</p>
+            <h4 class="news-card__title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, nulla consectetur! Consequatur, velit</h4>
+          </div>
+        </div>
+        <div class="news-card">
+          <img class="news-card__image" src="https://images.pexels.com/photos/264636/pexels-photo-264636.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" />
+          <div class="news-card__content">
+            <p class="news-card__info">by Dominic Jordan &bull; 14hrs ago</p>
+            <h4 class="news-card__title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, fuga beatae</h4>
+          </div>
+        </div>
+        <div class="news-card">
+          <img class="news-card__image" src="https://images.pexels.com/photos/3602009/pexels-photo-3602009.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" />
+          <div class="news-card__content">
+            <p class="news-card__info">by Adam Fisher &bull; 21hr ago</p>
+            <h4 class="news-card__title">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <h2 class="section__heading">World</h2>
+      <div class="section__cards">
+        <div class="news-card">
+          <img class="news-card__image" src="https://images.pexels.com/photos/1603650/pexels-photo-1603650.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" />
+          <div class="news-card__content">
+            <p class="news-card__info">by Gabriel Murphy &bull; 3hrs ago</p>
+            <h4 class="news-card__title">Lorem ipsum dolor sit amet consectetur, adipisicing elit</h4>
+          </div>
+        </div>
+        <div class="news-card">
+          <img class="news-card__image" src="https://images.pexels.com/photos/3699921/pexels-photo-3699921.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" />
+          <div class="news-card__content">
+            <p class="news-card__info">by Dominic Evans &bull; 4hrs ago</p>
+            <h4 class="news-card__title">Lorem ipsum dolor sit amet consectetur, adipisicing elit Lorem, ipsum dolor</h4>
+          </div>
+        </div>
+        <div class="news-card">
+          <img class="news-card__image" src="https://images.pexels.com/photos/89432/pexels-photo-89432.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" />
+          <div class="news-card__content">
+            <p class="news-card__info">by Gabriel Murphy &bull; 13hrs ago</p>
+            <h4 class="news-card__title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia repellat consectetur asperiores repellendus debitis temporibus est</h4>
+          </div>
+        </div>
+        <div class="news-card">
+          <img class="news-card__image" src="https://images.pexels.com/photos/1072824/pexels-photo-1072824.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" />
+          <div class="news-card__content">
+            <p class="news-card__info">by Dominic Evans &bull; 14hrs ago</p>
+            <h4 class="news-card__title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, aspernatur. Voluptatem incidunt enim asperiores recusandae, accusamus modi</h4>
+          </div>
+        </div>
+        <div class="news-card">
+          <img class="news-card__image" src="https://images.pexels.com/photos/942560/pexels-photo-942560.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" />
+          <div class="news-card__content">
+            <p class="news-card__info">by Gabriel Murphy &bull; 17hrs ago</p>
+            <h4 class="news-card__title">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="main-news">
+      <img class="main-news__image" src="https://images.pexels.com/photos/1096925/pexels-photo-1096925.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" />
+      <div class="main-news__container">
+        <div class="main-news__text">
+          <h1 class="main-news__title">AMET: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum voluptatem culpa nisi possimus itaque aut sint harum vitae.</h1>
+          <p class="main-news__info">by Bill McDonald &bull; 8hrs ago</p>
+          <p class="main-news__desc">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi sed inventore tenetur ad esse molestiae temporibus. Sed, ut enim corrupti impedit aperiam voluptatum perferendis ipsum ducimus molestiae, quidem natus quibusdam? Maxime neque dolor esse reiciendis accusantium laboriosam nulla non veniam officia suscipit quae, eaque totam.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <h2 class="section__heading">Sport</h2>
+      <div class="section__cards">
+        <div class="news-card">
+          <img class="news-card__image" src="https://images.pexels.com/photos/1277213/pexels-photo-1277213.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" />
+          <div class="news-card__content">
+            <p class="news-card__info">by Dominic Black &bull; 5hrs ago</p>
+            <h4 class="news-card__title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis obcaecati maxime ad</h4>
+          </div>
+        </div>
+        <div class="news-card">
+          <img class="news-card__image" src="https://images.pexels.com/photos/974502/pexels-photo-974502.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" />
+          <div class="news-card__content">
+            <p class="news-card__info">by Dominic Black &bull; 10hrs ago</p>
+            <h4 class="news-card__title">Lorem ipsum dolor sit amet consectetur, adipisicing elit</h4>
+          </div>
+        </div>
+        <div class="news-card">
+          <img class="news-card__image" src="https://images.pexels.com/photos/5740802/pexels-photo-5740802.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" />
+          <div class="news-card__content">
+            <p class="news-card__info">by Max Ramirez &bull; 13hrs ago</p>
+            <h4 class="news-card__title">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla libero nam at vel</h4>
+          </div>
+        </div>
+        <div class="news-card">
+          <img class="news-card__image" src="https://images.pexels.com/photos/1884574/pexels-photo-1884574.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" />
+          <div class="news-card__content">
+            <p class="news-card__info">by Max Ramirez &bull; 15hrs ago</p>
+            <h4 class="news-card__title">Lorem ipsum dolor sit amet consectetur, adipisicing elit</h4>
+          </div>
+        </div>
+        <div class="news-card">
+          <img class="news-card__image" src="https://images.pexels.com/photos/274422/pexels-photo-274422.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" />
+          <div class="news-card__content">
+            <p class="news-card__info">by Dominic Black &bull; 19hrs ago</p>
+            <h4 class="news-card__title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis dolor asperiores doloremque id? Porro, molestias natus</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <h2 class="section__heading">Lifestyle</h2>
+      <div class="section__cards">
+        <div class="news-card">
+          <img class="news-card__image" src="https://images.pexels.com/photos/5971874/pexels-photo-5971874.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" />
+          <div class="news-card__content">
+            <p class="news-card__info">by Dominic Jacobs &bull; 5hrs ago</p>
+            <h4 class="news-card__title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est temporibus ab sint adipisci suscipit</h4>
+          </div>
+        </div>
+        <div class="news-card">
+          <img class="news-card__image" src="https://images.pexels.com/photos/10679171/pexels-photo-10679171.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" />
+          <div class="news-card__content">
+            <p class="news-card__info">by John Stewart &bull; 6hrs ago</p>
+            <h4 class="news-card__title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, exercitationem</h4>
+          </div>
+        </div>
+        <div class="news-card">
+          <img class="news-card__image" src="https://images.pexels.com/photos/8902316/pexels-photo-8902316.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" />
+          <div class="news-card__content">
+            <p class="news-card__info">by Dominic Jacobs &bull; 12hrs ago</p>
+            <h4 class="news-card__title">Lorem ipsum dolor sit amet consectetur, adipisicing elit</h4>
+          </div>
+        </div>
+        <div class="news-card">
+          <img class="news-card__image" src="https://images.pexels.com/photos/2284166/pexels-photo-2284166.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" />
+          <div class="news-card__content">
+            <p class="news-card__info">by Dominic Jacobs &bull; 16hrs ago</p>
+            <h4 class="news-card__title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, sit cumque</h4>
+          </div>
+        </div>
+        <div class="news-card">
+          <img class="news-card__image" src="https://images.pexels.com/photos/2529172/pexels-photo-2529172.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" />
+          <div class="news-card__content">
+            <p class="news-card__info">by John Stewart &bull; 19hrs ago</p>
+            <h4 class="news-card__title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum nihil reiciendis suscipit</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <span class="footer__logo">TheNews</span>
+      <form class="newsletter">
+        <label for="newsletter__input" class="newsletter__label">Subscribe to get the latest news</label>
+        <div class="newsletter__container">
+          <input id="newsletter__input" class="newsletter__input" type="text" />
+          <button type="submit" class="btn">subscribe</button>
+        </div>
+      </form>
+      <div class="footer__links">
+        <ul class="footer__list">
+          <li class="footer__item"><a href="/">About Us</a></li>
+          <li class="footer__item"><a href="/">Contact Us</a></li>
+          <li class="footer__item"><a href="/">Careers</a></li>
+          <li class="footer__item"><a href="/">Privacy Policy</a></li>
+        </ul>
+      </div>
+      <p class="footer__copyright">Copyright © 2023 TheNews. All rights reserved.</p>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
